@@ -1,0 +1,39 @@
+* {
+    border: 2px solid red;
+  }
+
+body {
+    background-color: rgb(163, 201, 201);
+}
+
+h1 {
+    color: rgb(83, 136, 118); 
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
+.recipes {
+    margin:0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
